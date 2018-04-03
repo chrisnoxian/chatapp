@@ -62,12 +62,12 @@ margin-left: 1203px;
 @media only screen and (max-width: 600px) {
   #demo{
     overflow-y: scroll;
-    height: 489px;
-    margin-left: 
+    height: 433px;
+   
   }
   .row{
     margin-left: -15px;
-    margin-right: -20px;
+    margin-right: -15px;
     }
     .widebox{
       width: 200px;
@@ -77,6 +77,6 @@ margin-left: 1203px;
     }
     button{
       float: left;
-      margin-left: 261px;
+      margin-left: 256px;
     }
 }
