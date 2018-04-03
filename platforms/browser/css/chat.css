@@ -1,5 +1,5 @@
  body{
-  background-image: url("file:///C:/phonegap/chat/www/img/whatsapp.jpg");
+  background-image: url("../img/whatsapp.jpg");
  }
 #demo{
   overflow-y: scroll;
