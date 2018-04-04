@@ -62,13 +62,30 @@ margin-left: 1203px;
 @media only screen and (max-width: 600px) {
   #demo{
     overflow-y: scroll;
-    height: 433px;
+    height: 454px;
    
   }
   .row{
     margin-left: -15px;
     margin-right: -15px;
     }
+    .bubble 
+{
+      clear: both;
+    box-sizing: border-box;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 4px;
+    background: white;
+    border-radius: 10px;
+    margin: 8px 115px;
+    display: inline-block;
+    z-index: -1;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
     .widebox{
       width: 200px;
       float:left;
