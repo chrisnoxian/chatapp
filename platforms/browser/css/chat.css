@@ -10,6 +10,14 @@
 margin-left: -113px;
 margin-right: -113px;
 }
+.panel-heading {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.panel {
+  border: none;
+  border-radius: 0px;
+}
 
 .bubble 
 {
@@ -60,11 +68,13 @@ float : left;
 margin-left: 1203px;
 }
 @media only screen and (max-width: 600px) {
-     #demo{
+   #demo{
     overflow-y: scroll;
     height: 523px;
    
   }
+
+
   .row{
     margin-left: -15px;
     margin-right: -15px;
