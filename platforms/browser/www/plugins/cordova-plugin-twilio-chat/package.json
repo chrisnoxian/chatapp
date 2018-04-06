@@ -1,0 +1,64 @@
+{
+  "_from": "cordova-plugin-twilio-chat",
+  "_id": "cordova-plugin-twilio-chat@2.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-kExLKrOjbNa6HUYEnJJMpxaIIAdlkomwwXoFOV9sfyA+pbdkXpUTTyz+To43dRedBpIb8P1ba6Pbk4B/5ohIUQ==",
+  "_location": "/cordova-plugin-twilio-chat",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-twilio-chat",
+    "name": "cordova-plugin-twilio-chat",
+    "escapedName": "cordova-plugin-twilio-chat",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-twilio-chat/-/cordova-plugin-twilio-chat-2.2.0.tgz",
+  "_shasum": "4672da3804208c5ed2e5d12171e90a7cfad5c0a4",
+  "_spec": "cordova-plugin-twilio-chat",
+  "_where": "C:\\phonegap",
+  "author": {
+    "name": "Twilio"
+  },
+  "bugs": {
+    "url": "https://github.com/twilio/cordova-plugin-twilio-chat/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-twilio-chat",
+    "platforms": []
+  },
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Cordova plugin for Twilio Programmable Chat",
+  "devDependencies": {
+    "copyfiles": "^1.2.0",
+    "twilio-chat": "2.2.0"
+  },
+  "homepage": "https://github.com/twilio/cordova-plugin-twilio-chat#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-browser",
+    "twilio",
+    "twilio-chat",
+    "chat"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-twilio-chat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilio/cordova-plugin-twilio-chat.git"
+  },
+  "scripts": {
+    "prepare": "node_modules/copyfiles/copyfiles node_modules/twilio-chat/dist/twilio-chat*.js www/. -f"
+  },
+  "version": "2.2.0"
+}
