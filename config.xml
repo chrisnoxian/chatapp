@@ -9,8 +9,9 @@
     </author>
 
     <content src="index.html" />
-       
-  <preference name="android-windowSoftInputMode" value="stateVisible" />        
+  
+  <preference name="android-windowSoftInputMode" value="stateVisible" />     
+    <preference name="fullscreen"                 value="true" />           
     <preference name="DisallowOverscroll" value="true" />
    
     <plugin name="cordova-plugin-crosswalk-webview" source="npm" spec="~2.4.0"/>
