@@ -69,7 +69,7 @@ margin-left: 1203px;
 @media only screen and (max-width: 600px) {
   #demo{
     overflow-y: scroll;
-    height: 534px;
+    
    
   }
   .row{
