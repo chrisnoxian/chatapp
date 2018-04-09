@@ -10,7 +10,7 @@
 
     <content src="index.html" />
    <preference name="android-windowSoftInputMode" value="stateUnchanged|adjustResize"/>
-   <oreference name ="android:configChanges" value="orientation|keyboardHidden"/>
+   <preference name ="android:configChanges" value="orientation|keyboardHidden"/>
    <preference name="fullscreen" value="false" />
    <preference name="orientation"                value="default" />        
      <preference name="android-installLocation"    value="auto" />
