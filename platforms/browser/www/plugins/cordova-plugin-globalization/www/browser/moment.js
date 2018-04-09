@@ -1,4 +1,4 @@
-cordova.define("cordova-plugin-globalization.moment", function(require, exports, module) { //! moment.js
+//! moment.js
 //! version : 2.19.1
 //! authors : Tim Wood, Iskren Chernev, Moment.js contributors
 //! license : MIT
@@ -4512,5 +4512,3 @@ hooks.prototype             = proto;
 return hooks;
 
 })));
-
-});

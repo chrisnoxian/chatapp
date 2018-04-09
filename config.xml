@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget
+    id="com.my.app"
+    version="0.0.1"
+    xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <name>Chat</name>
     <description>
         Chat app is ready to work.
@@ -9,21 +15,13 @@
     </author>
 
     <content src="index.html" />
-    <gap:config-file platform="android" parent="/manifest/application">
-        android:windowSoftInputMode="stateVisible"
-</gap:config-file> 
-   
+   <preference name="android-windowSoftInputMode" value="stateUnchanged|adjustResize"/>
+   <oreference name ="android:configChanges" value="orientation|keyboardHidden"/>
+   <preference name="fullscreen" value="false" />
     <preference name="android-minSdkVersion" value="14" />
-    <preference name="fullscreen" value="false" />
-   <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize"/>
-   <preference name="KeyboardResize" value="true" />
-  
-<preference name="xwalkVersion" value="org.xwalk:xwalk_core_library:14+" />
-<preference name="xwalkVersion" value="xwalk_core_library:14+" />
-
+    <plugin name="cordova-plugin-crosswalk-webview" source="npm" spec="~2.4.0"/>
+    <plugin name="cordova-plugin-native-keyboard" source="npm" spec="~1.5.2" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
-    <plugin name="cordova-plugin-ionic-keyboard" source="npm" spec="~2.0.5" />
-    <plugin name="cordova-plugin-crosswalk-webview" spec="~2.4.0" />
     <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
     <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2" />

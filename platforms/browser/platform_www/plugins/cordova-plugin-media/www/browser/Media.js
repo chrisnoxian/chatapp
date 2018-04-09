@@ -1,4 +1,4 @@
-cordova.define("cordova-plugin-media.BrowserMedia", function(require, exports, module) { /*
+/*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -257,5 +257,3 @@ Media.onStatus = function(id, msgType, value) {
 };
 
 module.exports = Media;
-
-});

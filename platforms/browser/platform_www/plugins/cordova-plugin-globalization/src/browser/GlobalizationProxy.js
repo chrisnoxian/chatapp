@@ -1,4 +1,4 @@
-cordova.define("cordova-plugin-globalization.GlobalizationProxy", function(require, exports, module) { /*
+/*
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -307,5 +307,3 @@ var globalization = {
 module.exports = globalization;
 
 require('cordova/exec/proxy').add('Globalization', module.exports);
-
-});
