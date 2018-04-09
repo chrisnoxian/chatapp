@@ -2,8 +2,7 @@
   background-image: url("../img/whatsapp.jpg");
  }
 #demo{
-  overflow-y: scroll;
-  height: 588px;
+ 
   margin-left: -91px;
 }
 .row {
