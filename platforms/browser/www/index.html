@@ -33,42 +33,6 @@
 <button onclick="typo()" class="btn btn-warning btn-sm" id="btn-chat">Send</button>
 </div>
 </div>
-        <script>
-(function() {
-    
-    var button = document.getElementById('scrollbarbutton');
-
-    document.addEventListener('deviceready', onDeviceready); 
-
-    function updateButtonState() {
-        return mayflower.AndroidScrollbar.queryVerticalScrollbarVisibility()
-            .then(function(visible) {
-                button.innerHTML = visible ? 'Scrollbar visible' : 'Scrollbar hidden';
-            })
-            .otherwise(function(error) {
-                alert(error);
-            });
-    }
-
-    function onClick() {
-        mayflower.AndroidScrollbar.queryVerticalScrollbarVisibility()
-            .then(function(visible) {
-                return mayflower.AndroidScrollbar.toggleVerticalScrollbarVisibility(!visible);
-            })
-            .then(function() {
-                updateButtonState();
-            });
-    }
-
-    function onDeviceready() {
-        updateButtonState()
-            .then(function() {
-                button.disabled = false;
-                button.addEventListener('click', onClick);
-            });
-    }
-
-})()
-        </script>
+       
 </body>
 </html>
