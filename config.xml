@@ -9,12 +9,7 @@
     </author>
 
     <content src="index.html" />
-   <preference name="android-windowSoftInputMode" value="stateUnchanged|adjustResize"/>
-   
-   <preference name="fullscreen" value="false" />
-   <preference name="orientation"                value="default" />        
-     <preference name="android-installLocation"    value="auto" />
-    <preference name="target-device"              value="universal" />      
+       
     <preference name="fullscreen"                 value="true" />           
     <preference name="DisallowOverscroll" value="true" />
    
