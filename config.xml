@@ -9,8 +9,9 @@
     </author>
 
     <content src="index.html" />
-      <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
-   <preference name ="android:configChanges" value="orientation|keyboardHidden"/>
+   <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize"/>
+   
+   <preference name ="android-configChanges" value="orientation|keyboardHidden"/>
    
    <preference name="orientation"                value="default" />        
      <preference name="android-installLocation"    value="auto" />
