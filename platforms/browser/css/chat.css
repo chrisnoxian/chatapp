@@ -68,11 +68,7 @@ float : left;
 margin-left: 1203px;
 }
 @media only screen and (max-width: 600px) {
-  #demo{
-    overflow-y: scroll;
-    height: 534px;
-   
-  }
+ 
   .row{
     margin-left: -15px;
     margin-right: -15px;
