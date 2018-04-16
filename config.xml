@@ -9,8 +9,13 @@
     </author>
 
     <content src="index.html" />
-   <preference name="android-windowSoftInputMode" value="stateUnchanged|adjustResize"/>    
-    <preference name="fullscreen"   value="true" />           
+   <preference name="android-windowSoftInputMode" value="stateUnchanged|adjustResize"/>
+   <preference name ="android:configChanges" value="orientation|keyboardHidden"/>
+   <preference name="fullscreen" value="false" />
+   <preference name="orientation"                value="default" />        
+     <preference name="android-installLocation"    value="auto" />
+    <preference name="target-device"              value="universal" />      
+            
     <preference name="DisallowOverscroll" value="true" />
    
     <plugin name="cordova-plugin-crosswalk-webview" source="npm" spec="~2.4.0"/>
