@@ -11,7 +11,7 @@
     <content src="index.html" />
    <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize"/>
   
-   <preference name ="android-configChanges" value="orientation|keyboardHidden"/>      
+      
     <preference name="fullscreen"   value="false" />           
     <preference name="DisallowOverscroll" value="true" />
     
