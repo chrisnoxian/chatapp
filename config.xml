@@ -9,7 +9,7 @@
     </author>
 
     <content src="index.html" />
-   <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize"/>
+  
   
       
     <preference name="fullscreen"   value="false" />           
