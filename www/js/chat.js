@@ -25,3 +25,8 @@
 
     }
   });
+   window.addEventListener('native.keyboardshow', function(e){ 
+    setTimeout(function() {
+        document.activeElement.scrollIntoViewIfNeeded();
+    }, 100);
+});
