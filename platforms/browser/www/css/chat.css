@@ -1,11 +1,7 @@
  body{
   background-image: url("../img/whatsapp.jpg");
  }
-#demo{
-  overflow-y: scroll;
-  height: 590px;
-  margin-left: -91px;
-}
+
 .row {
 margin-left: -113px;
 margin-right: -113px;
@@ -62,15 +58,13 @@ top: 50%;
   float: left;
   margin-left: -111px;
   margin-bottom: -26px;
-
   }
 button{
 float : left;
 margin-left: 1203px;
 }
 @media only screen and (max-width: 600px) {
-
-  }
+  
   .row{
     margin-left: -15px;
     margin-right: -15px;
@@ -96,8 +90,8 @@ margin-left: 1203px;
       width: 300px;
       float:left;
       margin-left: -12px;
-          }
-    
+      
+    }
     button{
       float: left;
       margin-left: 294px;
