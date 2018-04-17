@@ -15,6 +15,7 @@
     <preference name="fullscreen"   value="true" />           
     <preference name="DisallowOverscroll" value="true" />
     
+    
     <plugin name="cordova-plugin-ionic-keyboard" source="npm" version="~2.0.5"/>
      <plugin name="cordova-plugin-keyboard" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-crosswalk-webview" source="npm" spec="~2.4.0"/>
@@ -61,11 +62,7 @@
         <splash density="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
     </platform>
-    <supports-screens android:anyDensity="true" android:resizeable="true" 
-    android:smallScreens="true" 
-    android:normalScreens="true" 
-    android:largeScreens="true" 
-    android:xlargeScreens="true" />
+
      
    
     <access origin="*" />
