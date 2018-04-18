@@ -82,7 +82,7 @@ margin-left: 1203px;
 @media only screen and (max-width: 600px) {
  
   ::-webkit-scrollbar {
-  width: 5px;
+  width: 2px;
 }
 
 ::-webkit-scrollbar-track {
@@ -95,7 +95,7 @@ margin-left: 1203px;
 } 
 #wrapper{
   overflow:auto; 
-  height: 583px;
+  height: 570px;
 }
 #demo{
  
