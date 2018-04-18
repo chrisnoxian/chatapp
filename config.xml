@@ -12,7 +12,7 @@
   
   
       
-    <preference name="fullscreen"   value="true" />           
+    <preference name="fullscreen"   value="false" />           
     <preference name="DisallowOverscroll" value="true" />
     
     

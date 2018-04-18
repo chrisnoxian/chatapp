@@ -68,6 +68,12 @@ float : left;
 margin-left: 1203px;
 }
 @media only screen and (max-width: 600px) {
+  #container{
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  }
    #demo{
     overflow-y: scroll;
     height: 589px;
