@@ -16,30 +16,7 @@
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script>
-    $("#input").focus(function(e) {
-    var container = $('#container'),
-    scrollTo = $('#input');
-
-    setTimeout((function() {
-       container.animate({
-       scrollTop: scrollTo.offset().top - container.offset().top + container.scrollTop()
-       });
-    }), 500);
-
-});
-  $("#input").click(function(e) {
-    e.stopPropagation();
-    var container = $('#container'), //container element to be scrolled, contains input
-    scrollTo = $('#input');
-
-    setTimeout((function() {
-        container.animate({
-        scrollTop: scrollTo.offset().top - container.offset().top + container.scrollTop()
-      });
-    }), 500);
-});
-</script>
+ 
 <body>
 <div class="container">
   
