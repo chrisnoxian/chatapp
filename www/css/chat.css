@@ -1,11 +1,23 @@
  body{
   background-image: url("../img/whatsapp.jpg");
  }
- 
-#demo{
- 
-  margin-left: -91px;
+  ::-webkit-scrollbar {
+  width: 10px;
 }
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #b8b894;
+} 
+#wrapper{
+  overflow:auto; 
+  height: 590px;
+}
+
 .row {
 margin-left: -113px;
 margin-right: -113px;
@@ -70,7 +82,7 @@ margin-left: 1203px;
 @media only screen and (max-width: 600px) {
  
   ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -83,7 +95,11 @@ margin-left: 1203px;
 } 
 #wrapper{
   overflow:auto; 
-  height: 200px;
+  height: 589px;
+}
+#demo{
+ 
+  margin-left: -91px;
 }
   .row{
     margin-left: -15px;
