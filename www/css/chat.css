@@ -1,9 +1,12 @@
  body{
   background-image: url("../img/whatsapp.jpg");
  }
+ #container{
+    height: 100%;
+    overflow-y: auto;
+  }
 #demo{
-  overflow-y: scroll;
-  height: 590px;
+
   margin-left: -91px;
 }
 .row {
@@ -71,13 +74,6 @@ margin-left: 1203px;
   #container{
     height: 100%;
     overflow-y: auto;
-  }
-
-  }
-   #demo{
-    overflow-y: scroll;
-    height: 589px;
-    
   }
   .row{
     margin-left: -15px;
