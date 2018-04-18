@@ -16,7 +16,7 @@
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- 
+
 <body>
 <div class="container">
   
@@ -30,12 +30,18 @@
             </div>
     </div>        
 <div class="bottom">
-  <div id="demo"></div>
+  <div id="wrapper">
+    <div id="demo"></div>
+  </div>
 <input class="widebox" type="text" id="myText" value="">
 <button onclick="typo()" class="btn btn-warning btn-sm" id="btn-chat">Send</button>
 </div>
 </div>
-
+<script>
+ $(document).ready(function() { 
+   touchScroll("wrapper");
+}); 
+</script>
      
 </body>
 </html>
