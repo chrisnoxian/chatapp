@@ -1,6 +1,9 @@
  window.onload = function() {
   document.getElementById("myText").focus();
   };
+  $(document).ready(function() { 
+   touchScroll("wrapper");
+}); 
   function typo() {
   if (document.getElementById("myText").value.trim().length == 0) {
      document.getElementById("myText").focus();
