@@ -95,7 +95,8 @@ margin-left: 1203px;
 } 
 #wrapper{
   overflow:auto; 
-  height: 500px;
+  height: 510px;
+  position: fixed;
 }
 #demo{
  
