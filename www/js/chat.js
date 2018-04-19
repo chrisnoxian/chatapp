@@ -21,14 +21,47 @@
 }
 
   
-  var input = document.getElementById("myText");
-  input.addEventListener("keyup", function(event) {
-    event.preventDefault();
-  if (event.keyCode === 13 && input.value.trim().length >0) {
-      document.getElementById("btn-chat").click();
-
+   var input = document.getElementById("myText");
+ $("textarea").keypress(function(e){
+    // Enter was pressed + shift key
+    if (e.keyCode === 13 && !e.shiftKey)
+    {
+       
+       
+        document.getElementById("btn-chat").click();
     }
-  });
+});
+ if (e.keyCode === 13 && e.shiftKey) {
+
+    // Trigger the button element with a click
+   e.preventDefault();
+    
+}
+  function isTouchDevice(){
+    try{
+        document.createEvent("TouchEvent");
+        return true;
+    }catch(e){
+        return false;
+    }
+}
+
+function touchScroll(id){
+    if(isTouchDevice()){ //if touch events exist...
+        var el=document.getElementById(id);
+        var scrollStartPos=0;
+
+        document.getElementById(id).addEventListener("touchstart", function(event) {
+            scrollStartPos=this.scrollTop+event.touches[0].pageY;
+            event.preventDefault();
+        },false);
+
+        document.getElementById(id).addEventListener("touchmove", function(event) {
+            this.scrollTop=scrollStartPos-event.touches[0].pageY;
+            event.preventDefault();
+        },false);
+}
+} 
  $(document).ready(function() { 
    touchScroll("wrapper");
 }); 

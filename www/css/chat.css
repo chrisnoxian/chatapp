@@ -16,7 +16,7 @@
 #wrapper{
   overflow:auto; 
   height: 590px;
-  
+
 }
 
 .row {
@@ -71,10 +71,14 @@ top: 50%;
    
 } 
 .widebox{
-  width: 1292px;
-  float: left;
-  margin-left: -111px;
-  margin-bottom: -26px;
+  box-sizing: border-box;
+      margin:4px 0px -26px -111px;
+      width: 1309px;
+      float:left;
+      height: 25px;
+      resize: none;
+      position: absolute;
+   overflow: hidden;
   }
 button{
 float : left;
@@ -96,7 +100,7 @@ margin-left: 1203px;
 } 
 #wrapper{
   overflow:auto; 
-  height: 510px;
+  height: 520px;
   position: relative;
 }
 #demo{
@@ -124,10 +128,15 @@ margin-left: 1203px;
     padding-right: 15px;
 
 }
-    .widebox{
+   .widebox{
+  box-sizing: border-box;
+      margin:4px 0px -26px -11px;
       width: 300px;
       float:left;
-      margin-left: -12px;
+      height: 25px;
+      resize: none;
+      position: absolute;
+   overflow: hidden;
       
     }
     button{
