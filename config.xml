@@ -10,7 +10,7 @@
 
     <content src="index.html" />
   
-  
+  <preference name="KeyboardShrinksView" value="true" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="fullscreen"   value="false" />           
    
