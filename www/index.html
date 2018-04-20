@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="./css/styles.css" />
 <link rel="stylesheet" type="text/css" href="css/chat.css"/>
 <script src="js/chat.js" type="text/javascript"></script>
+<script src="iscroll.js" type="text/javascript"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -17,7 +18,22 @@
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
 
+var myScroll;
+
+function loaded () {
+  myScroll = new IScroll('#wrapper', { mouseWheel: true });
+}
+
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+  capture: false,
+  passive: false
+} : false);
+
+</script>
+
+ 
 <body>
 <div class="container">
   
@@ -32,13 +48,17 @@
     </div>        
 
 <div class="bottom">
-  <div id="wrapper">
-    <div id="demo"></div>
-  </div>
+   <div id="scroller">
+      <div id="wrapper">
+         <div id="demo"></div>
+      </div>
+   </div>  
   <textarea class="widebox" type="text" id="myText" value=""></textarea>
 <button onclick="typo()" class="btn btn-warning btn-sm" id="btn-chat">Send</button>
 </div>
 </div>
+
+</script>
 
      
 </body>
