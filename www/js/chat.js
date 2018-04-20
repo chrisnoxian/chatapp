@@ -14,7 +14,7 @@
     document.getElementById("myText").value = "";
     var y = document.getElementById("demo").innerHTML = currentText + x;
 
-    var z = document.getElementById('wrapper');
+    var z = document.getElementById("wrapper");
     z.scrollTop = z.scrollHeight;
     document.getElementById("myText").focus();  
   }
@@ -46,23 +46,21 @@
     }
 }
 
-function touchScroll(id){
+function touchScroll(demo){
     if(isTouchDevice()){ //if touch events exist...
-        var el=document.getElementById(id);
+        var el=document.getElementById(demo);
         var scrollStartPos=0;
 
-        document.getElementById(id).addEventListener("touchstart", function(event) {
+        document.getElementById(demo).addEventListener("touchstart", function(event) {
             scrollStartPos=this.scrollTop+event.touches[0].pageY;
             event.preventDefault();
         },false);
 
-        document.getElementById(id).addEventListener("touchmove", function(event) {
+        document.getElementById(demo).addEventListener("touchmove", function(event) {
             this.scrollTop=scrollStartPos-event.touches[0].pageY;
             event.preventDefault();
         },false);
 }
 } 
- $(document).ready(function() { 
-   touchScroll("wrapper");
-}); 
+ 
   
