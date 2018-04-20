@@ -99,14 +99,10 @@ margin-left: 1203px;
   background-color: #000;
 } 
 #wrapper{
- position: absolute;
-top: -552px;
-left: 0;
-right: 0;
-bottom: 0;
-overflow: scroll;
--webkit-overflow-scrolling: touch;
-
+  overflow:auto; 
+  height: 550px;
+  position: relative;
+  box-sizing: border-box;
 }
 #demo{
  
