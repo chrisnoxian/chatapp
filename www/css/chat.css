@@ -100,10 +100,13 @@ margin-left: 1203px;
 } 
 #wrapper{
   overflow:auto; 
-  height: 558px;
+  
   position: fixed;
   margin-top: -20px;
   width: 344px;
+  -webkit-logical-height: 450px;
+  -webkit-max-logical-height: 450px;
+  -webkit-min-logical-height: 325px;
 }
 #demo{
  
