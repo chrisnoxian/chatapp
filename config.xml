@@ -9,7 +9,7 @@
     </author>
   
     <content src="index.html" />
-    <preference name="android:windowSoftInputMode" value="stateHidden|adjustPan" />
+    <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize"/>
  <preference name="android:windowTranslucentStatus" value="true" />
  <preference name="webviewbounce" value="true" />
    <preference name="android-minSdkVersion" value="16" />
