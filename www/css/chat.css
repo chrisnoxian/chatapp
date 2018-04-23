@@ -100,13 +100,16 @@ margin-left: 1203px;
 } 
 #wrapper{
   overflow:auto; 
-  height: 526px;
+  height: 513px;
   position: fixed;
-  margin-top: -548px;
+  margin-top: -20px;
+  width: 339px;
 }
 #demo{
  
   margin-left: -91px;
+  overflow: hidden;
+  
 }
   .row{
     margin-left: -15px;
