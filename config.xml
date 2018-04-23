@@ -11,7 +11,7 @@
     <content src="index.html" />
  <preference name="android:windowTranslucentStatus" value="true" />
  <preference name="webviewbounce" value="true" />
-  <preference name="android:windowSoftInputMode" value="stateVisible|adjustResize"/>
+  
     <preference name="DisallowOverscroll" value="true" />
     <preference name="fullscreen"   value="false" />           
    
