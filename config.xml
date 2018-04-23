@@ -7,11 +7,7 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
-  <activity 
- 
-  android:windowSoftInputMode="adjustPan">
-
-</activity>
+  
     <content src="index.html" />
  
   <preference name="android:windowSoftInputMode" value="adjustPan"/>
