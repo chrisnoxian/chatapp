@@ -9,8 +9,8 @@
     </author>
   
     <content src="index.html" />
-    <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize"/>
- <preference name="android:windowTranslucentStatus" value="true" />
+    <preference name="android-windowSoftInputMode" value="adjustResize"/>
+
  <preference name="webviewbounce" value="true" />
    <preference name="android-minSdkVersion" value="16" />
     <preference name="DisallowOverscroll" value="true" />
