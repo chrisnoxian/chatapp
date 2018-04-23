@@ -9,8 +9,7 @@
     </author>
 
     <content src="index.html" />
-  
-  <preference name="KeyboardShrinksView" value="true" />
+  <preference name="android:windowSoftInputMode" value="adjustPan"/>
     <preference name="DisallowOverscroll" value="true" />
     <preference name="fullscreen"   value="false" />           
    
@@ -63,7 +62,11 @@
     </platform>
 
      
-   
+   <activity 
+ 
+  android:windowSoftInputMode="adjustPan">
+
+</activity>
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
