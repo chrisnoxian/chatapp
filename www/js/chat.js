@@ -9,10 +9,10 @@
   }
    else
    {
-    var currentText = document.getElementById("demo").innerHTML;
+    var currentText = document.getElementById("wrapper").innerHTML;
     var x = '<div><p class=bubble>' + document.getElementById("myText").value + '</p></div>';
     document.getElementById("myText").value = "";
-    var y = document.getElementById("demo").innerHTML = currentText + x;
+    var y = document.getElementById("wrapper").innerHTML = currentText + x;
 
     var z = document.getElementById('wrapper');
     z.scrollTop = z.scrollHeight;
