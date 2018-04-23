@@ -7,8 +7,13 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
+  <activity 
+ 
+  android:windowSoftInputMode="adjustPan">
 
+</activity>
     <content src="index.html" />
+ 
   <preference name="android:windowSoftInputMode" value="adjustPan"/>
     <preference name="DisallowOverscroll" value="true" />
     <preference name="fullscreen"   value="false" />           
@@ -62,11 +67,7 @@
     </platform>
 
      
-   <activity 
  
-  android:windowSoftInputMode="adjustPan">
-
-</activity>
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
