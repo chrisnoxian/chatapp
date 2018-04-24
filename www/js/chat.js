@@ -16,8 +16,7 @@
 
     var z = document.getElementById('wrapper');
     z.scrollTop = z.scrollHeight;
-    $("input, textarea").focus(function(){  $(document.body).addClass('wrapper');     });
-$("input, textarea").blur( function(){  $(document.body).removeClass('widebox');  });
+   
     document.getElementById("myText").focus();  
   }
 }
