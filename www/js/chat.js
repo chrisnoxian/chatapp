@@ -16,11 +16,8 @@
 
     var z = document.getElementById('wrapper');
     z.scrollTop = z.scrollHeight;
-    window.addEventListener('native.keyboardshow', function(e){ 
-    setTimeout(function() {
-        document.activeElement.scrollIntoViewIfNeeded();
-    }, 100);
-});
+    $("input, textarea").focus(function(){  $(document.body).addClass('wrapper');     });
+$("input, textarea").blur( function(){  $(document.body).removeClass('widebox');  });
     document.getElementById("myText").focus();  
   }
 }

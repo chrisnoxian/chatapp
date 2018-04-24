@@ -104,7 +104,7 @@ margin-left: 1203px;
   position: fixed;
   margin-top: -20px;
   width: 437px;
-  height: 548px;
+  height: 543px;
   margin-left: -91px;
 }
   .row{
@@ -150,3 +150,25 @@ margin-left: 1203px;
 }
 
 }
+@media only screen and (max-width: 360px) , screen and(max-height: 550px) {
+  ::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #000;
+} 
+#wrapper{
+  overflow:auto; 
+  
+  position: fixed;
+  margin-top: -20px;
+  width: 437px;
+  height: 295px;
+  margin-left: -91px;
+ }
