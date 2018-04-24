@@ -16,13 +16,28 @@
 
     var z = document.getElementById('wrapper');
     z.scrollTop = z.scrollHeight;
+    document.addEventListener('deviceready', 
+  function(){
+    // disable immersive mode  on Android when keyboard is shown
+        try {
+      if (cordova.platformId == 'android') {
+        AndroidFullScreen.immersiveMode(false, false);
+        window.addEventListener('native.keyboardshow', function (e) {
+          AndroidFullScreen.showSystemUI(false, false);
+
+        });
+        window.addEventListener('native.keyboardhide', function (e) {
+          AndroidFullScreen.immersiveMode(false, false);
+        });
+      }
+    } catch (error) {
+      console.log('deviceready - ' + error);
+    }
+}, false);
     document.getElementById("myText").focus();  
   }
 }
 
-
-
-  
    var input = document.getElementById("myText");
  $("textarea").keypress(function(e){
     // Enter was pressed + shift key
