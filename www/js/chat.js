@@ -19,15 +19,17 @@
     document.getElementById("myText").focus();  
   }
 }
-
+window.addEventListener('native.keyboardshow', function(e){ 
+    setTimeout(function() {
+        document.activeElement.scrollIntoViewIfNeeded();
+    }, 100);
+});
   
    var input = document.getElementById("myText");
  $("textarea").keypress(function(e){
     // Enter was pressed + shift key
     if (e.keyCode === 13 && !e.shiftKey)
     {
-       
-       
         document.getElementById("btn-chat").click();
     }
 });
@@ -35,7 +37,6 @@
 
     // Trigger the button element with a click
    e.preventDefault();
-    
-}
+    }
  
  
