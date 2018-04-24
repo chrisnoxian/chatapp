@@ -20,24 +20,7 @@
   }
 }
 
-cordova.plugins.Keyboard.disableScroll(true);
-$$(window).on('native.keyboardshow', function(e) {
-    $$('body').css('padding-bottom', e.keyboardHeight + 'px');
 
-    var el = $$('input:focus, textarea:focus');
-    var content = el.closest('.wrapper');
-    var offset = el.offset().top + content.scrollTop();
-    /* 15 is an arbitrary value to add a bit of padding */
-    var safeAreaHeight = el.outerHeight(true) + 15;
-    var maxPosition = content.height() - safeAreaHeight;
-    if (content.scrollTop() < (offset - maxPosition)) {
-            content.scrollTop(offset - maxPosition);
-    }
-
-});
-$$(window).on('native.keyboardhide', function(e) {
-    $$('body').css('padding-bottom', 0);
-});
 
   
    var input = document.getElementById("myText");
