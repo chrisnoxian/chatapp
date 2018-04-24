@@ -9,8 +9,8 @@
     </author>
   
     <content src="index.html" />
-    <preference name="android-windowSoftInputMode" value="adjustResize|adjustPan" />
-    
+   
+     <preference name="KeyboardResize" value="true"/>
     <preference name="webviewbounce" value="true" />
     <preference name="android-minSdkVersion" value="16" />
     <preference name="DisallowOverscroll" value="true" />
