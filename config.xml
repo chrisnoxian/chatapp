@@ -48,7 +48,7 @@
     <platform name="android">
         
        <icon src="chatapp.png"/>
-      <splash src="splashscreen.png" />
+      <splash src="splash.png" />
         <splash density="land-ldpi" src="www/res/screen/android/scene-land-ldpi-screen.png" />
         <splash density="land-mdpi" src="www/res/screen/android/scene-land-mdpi-screen.png" />
         <splash density="land-hdpi" src="www/res/screen/android/scene-land-hdpi-screen.png" />
