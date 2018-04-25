@@ -46,8 +46,8 @@
     <platform name="android">
         
        <icon src="chatapp.png"/>
-        <splash density="land-ldpi" src="www/res/screen/android/drawable-land-ldpi-screen.png" />
-        <splash density="land-mdpi" src="www/res/screen/android/drawa/>ble-land-mdpi-screen.png" />
+       <splash density="land-ldpi" src="www/res/screen/android/drawable-land-ldpi-screen.png" />
+        <splash density="land-mdpi" src="www/res/screen/android/drawable-land-mdpi-screen.png" />
         <splash density="land-hdpi" src="www/res/screen/android/drawable-land-hdpi-screen.png" />
         <splash density="land-xhdpi" src="www/res/screen/android/drawable-land-xhdpi-screen.png" />
         <splash density="land-xxhdpi" src="www/res/screen/android/drawable-land-xxhdpi-screen.png" />
