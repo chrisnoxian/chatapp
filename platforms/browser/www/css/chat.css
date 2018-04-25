@@ -1,11 +1,24 @@
  body{
   background-image: url("../img/whatsapp.jpg");
  }
-#demo{
-  overflow-y: scroll;
-  height: 590px;
-  margin-left: -91px;
+  ::-webkit-scrollbar {
+  width: 10px;
 }
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #b8b894;
+} 
+#wrapper{
+  overflow:auto; 
+  height: 590px;
+
+}
+
 .row {
 margin-left: -113px;
 margin-right: -113px;
@@ -52,33 +65,54 @@ top: 50%;
     transform: translateY(-50%);
 }
 .bottom {
-   position: absolute;
+   position: fixed;
     
     bottom: 01px;
    
 } 
 .widebox{
-  width: 1292px;
-  float: left;
-  margin-left: -111px;
-  margin-bottom: -26px;
+  box-sizing: border-box;
+      margin:4px 0px -26px -111px;
+      width: 1309px;
+      float:left;
+      height: 25px;
+      resize: none;
+      position: absolute;
+   overflow: hidden;
   }
 button{
 float : left;
 margin-left: 1203px;
 }
 @media only screen and (max-width: 600px) {
-   #demo{
-    overflow-y: scroll;
-    height: 589px;
-    
-  }
+ 
+  ::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #000;
+} 
+#wrapper{
+  overflow:auto; 
+  
+  position: fixed;
+  margin-top: -20px;
+  width: 437px;
+  height: 543px;
+  margin-left: -91px;
+}
   .row{
     margin-left: -15px;
     margin-right: -15px;
     }
     .bubble 
-{
+    {
       clear: both;
     box-sizing: border-box;
     position: relative;
@@ -94,14 +128,47 @@ margin-left: 1203px;
     padding-right: 15px;
 
 }
-    .widebox{
+   .widebox{
+  box-sizing: border-box;
+      margin:4px 0px -26px -11px;
       width: 300px;
       float:left;
-      margin-left: -12px;
+      height: 25px;
+      resize: none;
+    
+   overflow: hidden;
       
     }
     button{
-      float: left;
+      float: right;
       margin-left: 294px;
     }
+.bottom{
+  position: fixed;
+  bottom: 1px;
+  
 }
+
+}
+@media only screen and (max-height: 550px) {
+  ::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #000;
+} 
+#wrapper{
+  overflow:auto; 
+  
+  position: fixed;
+  margin-top: -20px;
+  width: 437px;
+  height: 328px;
+  margin-left: -91px;
+ }
