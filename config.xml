@@ -15,8 +15,9 @@
     <preference name="android-minSdkVersion" value="16" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="fullscreen"   value="false" />      
-    <preference name="SplashScreen" value="splash"/>
-    <preference name="SplashScreenDelay" value="4000" />
+    <preference name="SplashScreen" value="scene"/>
+    <preference name="SplashScreenDelay" value="3000" />
+     <preference name="AutoHideSplashScreen" value="true" />
    
     
     <plugin name="cordova-plugin-ionic-keyboard" source="npm" version="~2.0.5"/>
@@ -49,14 +50,14 @@
         
        <icon src="chatapp.png"/>
       <splash src="splash.png" />
-        <splash density="land-ldpi" src="www/res/screen/android/scene-land-ldpi-screen.png" />
-        <splash density="land-mdpi" src="www/res/screen/android/scene-land-mdpi-screen.png" />
         <splash density="land-hdpi" src="www/res/screen/android/scene-land-hdpi-screen.png" />
+        <splash density="land-ldpi" src="www/res/screen/android/scene-land-ldpi-screen.png" />
+        <splash density="land-mdpi" src="www/res/screen/android/scene-land-mdpi-screen.png" />  
         <splash density="land-xhdpi" src="www/res/screen/android/scene-land-xhdpi-screen.png" />
-        
+
+        <splash density="port-hdpi" src="www/res/screen/android/scene-port-hdpi-screen.png" />
         <splash density="port-ldpi" src="www/res/screen/android/scene-port-ldpi-screen.png" />
         <splash density="port-mdpi" src="www/res/screen/android/scene-port-mdpi-screen.png" />
-        <splash density="port-hdpi" src="www/res/screen/android/scene-port-hdpi-screen.png" />
         <splash density="port-xhdpi" src="www/res/screen/android/scene-port-xhdpi-screen.png" />
         <splash density="port-xxhdpi" src="www/res/screen/android/scene-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="www/res/screen/android/scene-port-xxxhdpi-screen.png" />
