@@ -17,7 +17,7 @@
     <preference name="fullscreen"   value="false" />      
     <preference name="SplashScreen" value="splash"/>
     <preference name="SplashScreenDelay" value="3000" />
-    <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="AutoHideSplashScreen" value="true" />
     
     
     
