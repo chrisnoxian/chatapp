@@ -158,5 +158,21 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-native-keyboard": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-native-keyboard"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "de.mayflower.cordova.android-scrollbar": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-android-scrollbar@~0.2.1"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
