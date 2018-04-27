@@ -21,7 +21,6 @@
     
     <plugin name="cordova-plugin-ionic-keyboard" source="npm" version="~2.0.5"/>
     <plugin name="cordova-plugin-keyboard" source="npm" spec="~1.2.0" />
-    <plugin name="cordova-plugin-crosswalk-webview" source="npm" spec="~2.4.0"/>
     <plugin name="cordova-plugin-native-keyboard" source="npm" spec="~1.5.2" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
