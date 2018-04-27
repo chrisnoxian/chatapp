@@ -19,15 +19,11 @@
     <preference name="SplashScreenDelay" value="3000" />
     
     
-    <plugin name="cordova-plugin-ionic-keyboard" source="npm" version="~2.0.5"/>
-    <plugin name="cordova-plugin-keyboard" source="npm" spec="~1.2.0" />
-    <plugin name="cordova-plugin-native-keyboard" source="npm" spec="~1.5.2" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
     <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2" />
     <plugin name="cordova-plugin-contacts" source="npm" spec="~2.0.1" />
-    <plugin name="cordova-android-scrollbar" source="npm" spec="~0.2.1"/>
     <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
     <plugin name="cordova-plugin-device-motion" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-device-orientation" source="npm" spec="~1.0.2" />
@@ -45,7 +41,7 @@
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
 
     <platform name="android">
-        <preference name="SplashScreen" value="splash"/>
+        
        <icon src="chatapp.png"/>
       <splash src="splash.png" />
        <splash qualifier="land-ldpi" src="www/res/screen/android/splash-land-ldpi-screen.png" />
