@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="css/chat.css"/>
 <script type="text/javascript" src="cordova.js"></script>
 <script src="js/chat.js" type="text/javascript"></script>
+<script src="js/toast.js" type="text/javascript"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -49,30 +50,7 @@
 </div>
 <script type="text/javascript">
 
- var lastTimeBackPress=0;
-var timePeriodToExit=2000;
-
-function onBackKeyDown(e){
-    e.preventDefault();
-    e.stopPropagation();
-    if(new Date().getTime() - lastTimeBackPress < timePeriodToExit){
-        navigator.app.exitApp();
-    }else{
-        window.plugins.toast.showWithOptions(
-            {
-              message: "Press again to exit.",
-              duration: "short", // which is 2000 ms. "long" is 4000. Or specify the nr of ms yourself.
-              position: "bottom",
-              addPixelsY: -40  // added a negative value to move it up a bit (default 0)
-            }
-          );
-        
-        lastTimeBackPress=new Date().getTime();
-    }
-};
-
-document.addEventListener("backbutton", onBackKeyDown, false);
-
+ 
 
 </script>
 
