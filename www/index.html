@@ -52,12 +52,12 @@
          );
      }, true); 
 
-
-    function onConfirmQuit(button){
-        if(button == "1"){
-           document.addEventListener('deviceready', function () {
+ document.addEventListener('deviceready', function () {
   document.addEventListener('resume', yourAsyncResumeCallback, false);
 });
+    function onConfirmQuit(button){
+        if(button == "1"){
+          
             navigator.app.exitApp(); 
         }
     }
