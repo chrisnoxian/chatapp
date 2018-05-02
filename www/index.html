@@ -55,12 +55,13 @@
 
     function onConfirmQuit(button){
         if(button == "1"){
+           document.addEventListener('deviceready', function () {
+  document.addEventListener('resume', yourAsyncResumeCallback, false);
+});
             navigator.app.exitApp(); 
         }
     }
-    document.addEventListener('deviceready', function () {
-  document.addEventListener('resume', yourAsyncResumeCallback, false);
-});
+
 </script>
 
 </body>
