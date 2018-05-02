@@ -43,6 +43,10 @@
      </div>
 </div>
 <script type="text/javascript">
+  navigator.splashscreen.show();
+ document.addEventListener('deviceready', function () {
+  document.addEventListener('resume', yourAsyncResumeCallback, false);
+});
   document.addEventListener("backbutton", function () { 
          navigator.notification.confirm(
              'Do you want to quit', 
@@ -51,13 +55,10 @@
              'OK,Cancel'  
          );
      }, true); 
-navigator.splashscreen.show();
- document.addEventListener('deviceready', function () {
-  document.addEventListener('resume', yourAsyncResumeCallback, false);
-});
+
     function onConfirmQuit(button){
         if(button == "1"){
-          
+
             navigator.app.exitApp(); 
         }
     }
