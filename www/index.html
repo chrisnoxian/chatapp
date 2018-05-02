@@ -47,7 +47,7 @@
          navigator.notification.confirm(
              'Do you want to quit', 
              onConfirmQuit, 
-             'QUIT TITLE', 
+             'QUIT APPLICATION', 
              'OK,Cancel'  
          );
      }, true); 
@@ -58,6 +58,9 @@
             navigator.app.exitApp(); 
         }
     }
+    document.addEventListener('deviceready', function () {
+  document.addEventListener('resume', yourAsyncResumeCallback, false);
+});
 </script>
 
 </body>
