@@ -22,7 +22,18 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </script>
-<body>
+<script type="text/javascript">
+      function onLoad()
+            {
+                  document.addEventListener("deviceready", onDeviceReady, true);
+            }
+
+            function exitFromApp()
+             {
+                navigator.app.exitApp();
+             }
+</script>
+<body onload="onLoad();"">
 <div class="container">
   
     <div class="row">
