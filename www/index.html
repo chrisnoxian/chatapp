@@ -22,27 +22,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<script type="text/javascript">
-     document.addEventListener("deviceready", onDeviceReady, false);
+<script type="text/javascript" charset="utf-8">
 
-    // PhoneGap is loaded and it is now safe to make calls PhoneGap methods
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // device APIs are available
     //
     function onDeviceReady() {
         checkConnection();
     }
 
-    function checkConnection() {
-        var networkState = navigator.network.connection.type;
+        function checkConnection() {
+            var networkState = navigator.connection.type;
 
-        var states = {};
-        states[Connection.UNKNOWN]  = 'Unknown connection';
-       
-        states[Connection.NONE]     = 'No network connection';
-
-        alert('Connection type: ' + states[networkState]);
+            if(navigator.connection.type == Connection.NONE) {        
+        alert("No network connection.Please turn it on");
     }
+        }
 
-</script>
+    </script>
 <body>
 <div class="container">
   
